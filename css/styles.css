@@ -404,6 +404,41 @@ body {
   margin-right: 0;
 }
 
+.company-border {
+  display: block;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logo-first {
+  background-image: url('../images/logo1.svg');
+}
+
+.logo-second {
+  background-image: url('../images/logo2.svg');
+}
+
+.logo-third {
+  background-image: url('../images/logo3.svg');
+}
+.logo-fourth {
+  background-image: url('../images/logo4.svg');
+}
+
+.logo-fifth {
+  background-image: url('../images/logo5.svg');
+}
+
+.logo-sixth {
+  background-image: url('../images/logo6.svg');
+}
+
 /* футер */
 
 footer {
