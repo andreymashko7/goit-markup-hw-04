@@ -234,46 +234,24 @@ body {
   display: flex;
 }
 
-.item-box .icon-antena {
-  /* width: 270px;
-  height: 120px; */
-  border-radius: 4px;
-  margin-bottom: 30px;
-  background: #f5f4fa;
-}
-
-.icon-antena {
-  width: 65px;
-  height: 70px;
-}
-
-/* .item-box::before {
-  display: block;
-  content: '';
+/* .item-box .icon-antena {
+  width: 270px;
   height: 120px;
   border-radius: 4px;
   margin-bottom: 30px;
-
   background: #f5f4fa;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.icon-antena::before {
-  background-image: url('../images/1.svg');
-}
-
-.icon-time::before {
-  background-image: url('../images/2.svg');
-}
-
-.icon-computer::before {
-  background-image: url('../images/3.svg');
-}
-
-.icon-astronaut::before {
-  background-image: url('../images/4.svg');
 } */
+
+.icon-box {
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background: #f5f4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .information .item-box {
   margin-right: 30px;
