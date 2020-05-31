@@ -95,6 +95,7 @@ body {
   height: 11px;
   margin-right: 10px;
   fill: currentColor;
+  background-position: bottom;
 }
 
 .icon-mobile {
@@ -234,14 +235,6 @@ body {
   display: flex;
 }
 
-/* .item-box .icon-antena {
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-  margin-bottom: 30px;
-  background: #f5f4fa;
-} */
-
 .icon-box {
   width: 270px;
   height: 120px;
@@ -314,6 +307,19 @@ body {
 .list.workers {
   display: flex;
   text-align: center;
+}
+
+.link-social.person {
+  fill: #afb1b8;
+}
+
+.link-social.person:hover,
+.link-social.person:focus {
+  fill: #ffffff;
+}
+
+.persona-box {
+  padding: 30px 32px 24px;
 }
 
 .team .item {
@@ -396,39 +402,22 @@ body {
   margin-right: 0;
 }
 
-.company-border {
-  display: block;
+.company-logo {
+  display: flex;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
-  box-sizing: border-box;
   border-radius: 4px;
-
-  background-repeat: no-repeat;
-  background-position: center;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
 }
 
-.logo-first {
-  background-image: url('../images/logo1.svg');
-}
-
-.logo-second {
-  background-image: url('../images/logo2.svg');
-}
-
-.logo-third {
-  background-image: url('../images/logo3.svg');
-}
-.logo-fourth {
-  background-image: url('../images/logo4.svg');
-}
-
-.logo-fifth {
-  background-image: url('../images/logo5.svg');
-}
-
-.logo-sixth {
-  background-image: url('../images/logo6.svg');
+.company-logo:hover,
+.company-logo:focus {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* футер */
@@ -447,6 +436,21 @@ footer {
   font-weight: 700;
   font-size: 22px;
   line-height: 1.2;
+}
+.link-social {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  align-items: center;
+  fill: #ffffff;
+}
+
+.link-social:hover,
+.link-social:focus {
+  background: var(--accent-color);
 }
 
 .contacts .contacts-link {
@@ -637,6 +641,10 @@ footer {
 .group.item {
   margin-right: 30px;
   margin-top: 50px;
+}
+.group.item:hover {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 .group.item:nth-child(-n + 3) {
