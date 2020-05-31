@@ -145,14 +145,13 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 
 /* hero */
 
 .hero {
-  outline: 1px solid black;
   height: 600px;
   max-width: 1600px;
   margin-left: auto;
@@ -165,7 +164,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* background-color: grey; */
+  background-color: rgba(47, 48, 58, 0.8);
 
   text-align: center;
 }
